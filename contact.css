@@ -1,0 +1,43 @@
+/* Navbar hover effect */
+.nav-link:hover {
+  background-color: #8d99ae; /* Light shade */
+  transform: scale(1.1);
+  transition: background-color 0.3s ease, transform 0.2s ease;
+  border-radius: 10px;
+}
+
+
+
+/* Contact Section Customization */
+.contact-item:hover {
+  transform: scale(1.1);
+  box-shadow: 0 6px 12px rgba(0, 0, 0, 0.3);
+  background-color: #1a2025;
+  transition: transform 0.3s, box-shadow 0.3s, background-color 0.3s;
+}
+
+/* Social Icons Hover Effect */
+.social-icon {
+  text-decoration: none;
+  transition: color 0.3s, transform 0.3s;
+}
+
+.social-icon:hover {
+  color: #e74c3c;
+  transform: scale(1.2);
+}
+
+.social-icon.facebook:hover {
+  color: #3b5998;
+}
+
+.social-icon.youtube:hover {
+  color: #ff0000;
+}
+.logo {
+  text-decoration: none; 
+  color: inherit; 
+  font-size: 1.5em; 
+  font-weight: bold; 
+}
+
